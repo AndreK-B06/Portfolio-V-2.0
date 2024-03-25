@@ -5,6 +5,7 @@
 }
 
 root {
-  -background: white;
-  -text: black;
+  -background: #f5fefd;
+  -text: #16161d;
+  --Hero-section: #0a66c2;
 }
