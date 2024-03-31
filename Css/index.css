@@ -3,9 +3,26 @@
   margin: 0px;
   padding: 0px;
 }
-
+/* -------
+* Colors *
+----------*/
 root {
   -background: #f5fefd;
   -text: #16161d;
   --Hero-section: #0a66c2;
 }
+/* ------
+* Hero *
+--------*/
+
+/* ------
+* Main *
+--------*/
+
+/* ------
+* Quote *
+--------*/
+
+/* ------
+* Footer *
+--------*/
