@@ -22,7 +22,9 @@ root {
 /* ------
 * general *
 --------*/
-
+.flex {
+  display: flex;
+}
 /* ------
 * Main *
 --------*/
