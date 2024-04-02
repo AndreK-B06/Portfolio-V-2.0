@@ -17,10 +17,10 @@ body {
   color: var(--text);
 }
 nav {
-  background-color: var(--nav);
+  background-color: var(--nav-section);
 }
 .hero {
-  background-color: var(--Hero);
+  background-color: var(--Hero-section);
 }
 /* ------
 * Nav *
