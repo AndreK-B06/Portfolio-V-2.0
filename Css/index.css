@@ -6,7 +6,7 @@
 /* -------
 * Colors *
 ----------*/
-root {
+:root {
   --background: #f5fefd;
   --text: #16161d;
   --Hero-section: #0a66c2;
@@ -19,19 +19,29 @@ body {
 nav {
   background-color: var(--nav-section);
 }
-.hero {
+#hero {
   background-color: var(--Hero-section);
 }
 /* ------
 * Nav *
 --------*/
+nav {
+  padding: 20px;
+  width: 100%;
+}
 ul {
   list-style-type: none;
 }
 /* ------
 * Hero *
 --------*/
-
+#hero {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
 /* ------
 * Text *
 --------*/
@@ -44,11 +54,18 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px 50px;
+  margin: 0px 50px;
 }
 
 body {
   width: 375px;
+}
+
+#welcome-img {
+  width: 230px;
+  height: 210px;
+  border-radius: 50%;
+  border: 5px var(--background) solid;
 }
 /* ------
 * Main *
