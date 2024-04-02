@@ -7,9 +7,19 @@
 * Colors *
 ----------*/
 root {
-  -background: #f5fefd;
-  -text: #16161d;
+  --background: #f5fefd;
+  --text: #16161d;
   --Hero-section: #0a66c2;
+}
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+/* ------
+* Nav *
+--------*/
+nav {
+  flex-direction: row;
 }
 /* ------
 * Hero *
@@ -24,6 +34,14 @@ root {
 --------*/
 .flex {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  flex-direction: column;
+  width: 375px;
 }
 /* ------
 * Main *
