@@ -17,15 +17,17 @@ body {
   color: var(--text);
 }
 nav {
-  background-color: var(--nav-section);
+  background-color: var(--nav);
 }
 .hero {
-  background-color: var(--Hero-section);
+  background-color: var(--Hero);
 }
 /* ------
 * Nav *
 --------*/
-
+ul {
+  list-style-type: none;
+}
 /* ------
 * Hero *
 --------*/
