@@ -42,24 +42,6 @@ ul {
   margin: auto;
   width: 100%;
 }
-/* ------
-* Text *
---------*/
-
-/* ------
-* general *
---------*/
-.flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 50px;
-}
-
-body {
-  width: 375px;
-}
 
 #welcome-img {
   width: 230px;
@@ -67,6 +49,37 @@ body {
   border-radius: 50%;
   border: 5px var(--background) solid;
 }
+#aboute-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact-me {
+  margin: 10px;
+  border: none;
+  padding: 10px 15px;
+}
+/* ------
+* Text *
+--------*/
+
+/* ------
+* general *
+--------*/
+#body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 100%;
+}
+
+body {
+  width: 375px;
+}
+
 /* ------
 * Main *
 --------*/
