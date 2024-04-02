@@ -10,17 +10,22 @@ root {
   --background: #f5fefd;
   --text: #16161d;
   --Hero-section: #0a66c2;
+  --nav-section: #78b9d8;
 }
 body {
   background-color: var(--background);
   color: var(--text);
 }
+nav {
+  background-color: var(--nav-section);
+}
+.hero {
+  background-color: var(--Hero-section);
+}
 /* ------
 * Nav *
 --------*/
-nav {
-  flex-direction: row;
-}
+
 /* ------
 * Hero *
 --------*/
@@ -37,10 +42,10 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px 50px;
 }
 
 body {
-  flex-direction: column;
   width: 375px;
 }
 /* ------
