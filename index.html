@@ -10,18 +10,21 @@
   <body>
     <section id="body-container">
       <!-- Navigation section -->
-      <nav class="flex">
-        <h1>André Kvist</h1>
-        <a id="menu" data="hamburger-menu">
+      <nav>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="menu">
           <span></span>
-          <span></spn>
           <span></span>
-        </a>
-        <ul>
-          <li>Om meg</li>
-          <li>Mine prosjekter</li>
-          <li>Kontakt meg</li>
-        </ul>
+          <span></span>
+        </label>
+        <section class="menu-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </section>
       </nav>
       <!-- welcome section -->
       <section class="flex" id="hero">
