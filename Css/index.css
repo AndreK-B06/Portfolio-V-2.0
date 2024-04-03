@@ -12,7 +12,6 @@
   --text: #16161d;
   --Hero-section: #0a66c2;
   --nav-section: #78b9d8;
-  --btn-background: #f5fefd;
   --btn-border: #78b9d8;
 }
 body {
@@ -35,7 +34,7 @@ a {
   color: var(--text);
 }
 .project-btn {
-  background-color: var(--btn-background);
+  background-color: var(--background);
 }
 /* ------
 * Nav *
@@ -189,7 +188,7 @@ button {
 /* ------
 * Main *
 --------*/
-#project-1 {
+.project-alinment {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,13 +196,14 @@ button {
   align-items: center;
 }
 .project-img {
-  width: 400px;
+  width: 95%;
+  border: var(--btn-border) 20px solid;
 }
 .project-btn {
   margin: 10px 20px;
-  padding: 10px 15px;
-  border: var(--btn-border) 5px solid;
-  border-radius: 5px;
+  padding: 15px 20px;
+  border: var(--btn-border) 2px solid;
+  border-radius: 20px;
 }
 /* ------
 * Quote *
