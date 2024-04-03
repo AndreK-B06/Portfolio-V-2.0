@@ -44,7 +44,7 @@ nav {
 }
 /* * Menu Start * */
 
-#menu-toggle {
+/* #menu-toggle {
   display: none;
 }
 
@@ -111,7 +111,7 @@ li {
 #menu-toggle:checked + #menu + #scroll-container {
   opacity: 1;
   visibility: visible;
-}
+} */
 /* * Menu End * */
 /* ------
 * Hero *
