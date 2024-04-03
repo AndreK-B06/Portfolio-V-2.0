@@ -26,8 +26,10 @@ nav {
 * Nav *
 --------*/
 nav {
+  display: flex;
   padding: 20px;
   width: 100%;
+  justify-content: space-between;
 }
 ul {
   list-style-type: none;
@@ -44,6 +46,7 @@ ul {
   height: 20px;
   position: relative;
   cursor: pointer;
+  justify-content: end;
 }
 
 #menu span {
@@ -70,7 +73,7 @@ ul {
 }
 
 #menu-toggle:checked + #menu span:nth-child(1) {
-  transform: rotate(45deg) translateY(6px);
+  transform: rotate(45deg) translateY(12px);
 }
 
 #menu-toggle:checked + #menu span:nth-child(2) {
@@ -78,15 +81,15 @@ ul {
 }
 
 #menu-toggle:checked + #menu span:nth-child(3) {
-  transform: rotate(-45deg) translateY(-6px);
+  transform: rotate(-45deg) translateY(-12px);
 }
 
-.menu-links {
+#scroll-container {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 120px;
+  left: 320px;
   transform: translate(-50%, -50%);
-  background-color: #f9f9f9;
+  background-color: var(--background);
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -95,7 +98,7 @@ ul {
   visibility: hidden;
 }
 
-#menu-toggle:checked + #menu + .menu-links {
+#menu-toggle:checked + #menu + #scroll-container {
   opacity: 1;
   visibility: visible;
 }
