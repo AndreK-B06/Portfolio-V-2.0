@@ -41,24 +41,24 @@ ul {
   cursor: pointer;
 }
 
-#menu li {
+#menu span {
   position: absolute;
   left: 0;
   width: 44px;
   height: 3px;
-  background-color: white;
+  background-color: var(--text);
 }
 
-#menu li:nth-child(1) {
-  top: 0;
+#menu span:nth-child(1) {
+  /* top: 0; */
 }
 
-#menu li:nth-child(2) {
-  top: 50%;
+#menu span:nth-child(2) {
+  /* top: 50%; */
 }
 
-#menu li:nth-child(3) {
-  top: 100%;
+#menu span:nth-child(3) {
+  /* top: 100%; */
 }
 /* * Menu End * */
 /* ------

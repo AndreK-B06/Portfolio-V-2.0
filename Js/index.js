@@ -1,7 +1,7 @@
 let menu = document.getElementById("menu");
-let bar1 = menu.querySelector("li:nth-child(1)");
-let bar2 = menu.querySelector("li:nth-child(2)");
-let bar3 = menu.querySelector("li:nth-child(3)");
+let bar1 = menu.querySelector("span:nth-child(1)");
+let bar2 = menu.querySelector("span:nth-child(2)");
+let bar3 = menu.querySelector("span:nth-child(3)");
 
 menu.addEventListener("click", function () {
   this.classList.toggle("active");
