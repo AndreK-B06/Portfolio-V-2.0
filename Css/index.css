@@ -12,6 +12,8 @@
   --text: #16161d;
   --Hero-section: #0a66c2;
   --nav-section: #78b9d8;
+  --btn-background: #f5fefd;
+  --btn-border: #78b9d8;
 }
 body {
   background-color: var(--background);
@@ -31,6 +33,9 @@ nav,
 #contact-me,
 a {
   color: var(--text);
+}
+.project-btn {
+  background-color: var(--btn-background);
 }
 /* ------
 * Nav *
@@ -193,6 +198,12 @@ button {
 }
 .project-img {
   width: 400px;
+}
+.project-btn {
+  margin: 10px 20px;
+  padding: 10px 15px;
+  border: var(--btn-border) 5px solid;
+  border-radius: 5px;
 }
 /* ------
 * Quote *
