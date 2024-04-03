@@ -41,7 +41,7 @@ ul {
   cursor: pointer;
 }
 
-#menu b {
+#menu li {
   position: absolute;
   left: 0;
   width: 44px;
