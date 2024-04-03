@@ -27,7 +27,8 @@ nav,
 #hero {
   background-color: var(--Hero-section);
 }
-#contact-me {
+#contact-me,
+a {
   color: var(--text);
 }
 /* ------
@@ -38,9 +39,6 @@ nav {
   padding: 20px;
   width: 100%;
   justify-content: space-between;
-}
-ul {
-  list-style-type: none;
 }
 /* * Menu Start * */
 
@@ -94,7 +92,7 @@ ul {
 
 #scroll-container {
   position: absolute;
-  top: 120px;
+  top: 145px;
   left: 320px;
   transform: translate(-50%, -50%);
   background-color: var(--background);
@@ -104,6 +102,9 @@ ul {
   transition: opacity 0.3s ease, visibility 0.3s ease;
   opacity: 0;
   visibility: hidden;
+}
+li {
+  margin: 10px 0px;
 }
 
 #menu-toggle:checked + #menu + #scroll-container {
@@ -150,7 +151,22 @@ ul {
 /* ------
 * Text *
 --------*/
-
+h1,
+li {
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+h2,
+p,
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
 /* ------
 * general *
 --------*/
