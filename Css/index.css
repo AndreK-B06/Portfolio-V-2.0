@@ -32,6 +32,35 @@ nav {
 ul {
   list-style-type: none;
 }
+/* * Menu Start * */
+#menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#menu b {
+  position: absolute;
+  left: 0;
+  width: 44px;
+  height: 3px;
+  background-color: white;
+}
+
+#menu li:nth-child(1) {
+  top: 0;
+}
+
+#menu li:nth-child(2) {
+  top: 50%;
+}
+
+#menu li:nth-child(3) {
+  top: 100%;
+}
+/* * Menu End * */
 /* ------
 * Hero *
 --------*/
