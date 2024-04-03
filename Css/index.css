@@ -46,19 +46,19 @@ ul {
   left: 0;
   width: 44px;
   height: 3px;
-  background-color: var(--text);
+  background-color: black;
 }
 
 #menu span:nth-child(1) {
-  /* top: 0; */
+  top: 0;
 }
 
 #menu span:nth-child(2) {
-  /* top: 50%; */
+  top: 50%;
 }
 
 #menu span:nth-child(3) {
-  /* top: 100%; */
+  top: 100%;
 }
 /* * Menu End * */
 /* ------
