@@ -167,6 +167,7 @@ button {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: italic;
+  text-align: center;
 }
 /* ------
 * general *
@@ -183,7 +184,16 @@ button {
 /* ------
 * Main *
 --------*/
-
+#project-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+}
+.project-img {
+  width: 400px;
+}
 /* ------
 * Quote *
 --------*/
