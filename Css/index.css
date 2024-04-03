@@ -16,7 +16,8 @@ body {
   background-color: var(--background);
   color: var(--text);
 }
-nav {
+nav,
+#contact-me {
   background-color: var(--nav-section);
 }
 nav,
@@ -25,6 +26,9 @@ nav,
 }
 #hero {
   background-color: var(--Hero-section);
+}
+#contact-me {
+  color: var(--text);
 }
 /* ------
 * Nav *
@@ -111,10 +115,11 @@ ul {
 * Hero *
 --------*/
 #hero {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   justify-content: center;
   align-items: center;
-  margin: auto;
   width: 100%;
 }
 
@@ -123,6 +128,7 @@ ul {
   height: 210px;
   border-radius: 50%;
   border: 5px var(--background) solid;
+  margin-bottom: 30px;
 }
 #about-me {
   display: flex;
@@ -133,7 +139,9 @@ ul {
 #contact-me {
   margin: 10px;
   border: none;
+  border-radius: 5px;
   padding: 10px 15px;
+  background-color: var(--nav-section);
 }
 /* ------
 * Text *
