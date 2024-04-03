@@ -49,7 +49,7 @@ ul {
   border-radius: 50%;
   border: 5px var(--background) solid;
 }
-#aboute-me {
+#about-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
