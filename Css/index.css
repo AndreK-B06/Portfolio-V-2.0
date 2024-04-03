@@ -143,7 +143,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 375px;
+  max-width: 425px;
   height: 100%;
 }
 
