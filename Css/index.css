@@ -84,7 +84,6 @@ nav {
   grid-template-columns: auto auto;
   width: 100%;
   padding: 2rem;
-  justify-content: space-evenly;
 }
 
 /* ------
@@ -103,7 +102,6 @@ nav {
   width: auto;
   height: 210px;
   border-radius: 50%;
-  border: 5px var(--background) solid;
   margin-bottom: 30px;
 }
 #about-me {
@@ -117,7 +115,7 @@ nav {
   border: none;
   border-radius: 5px;
   padding: 10px 15px;
-  background-color: var(--nav-section);
+  transition: 0.7s;
 }
 .icons {
   width: 50px;
@@ -127,7 +125,7 @@ nav {
 /* ------
 * Main *
 --------*/
-.project-alinment {
+.project-alignment {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,6 +141,7 @@ nav {
   padding: 15px 20px;
   border: var(--btn-border) 2px solid;
   border-radius: 20px;
+  transition: 0.7s;
 }
 .my-tools {
   display: flex;
@@ -177,4 +176,9 @@ footer {
 
 .project-btn:hover {
   background-color: var(--btn-border);
+  transition: 0.7s;
+}
+#contact-me:hover {
+  background-color: var(--background);
+  transition: 0.7s;
 }
