@@ -37,6 +37,45 @@ a {
 .project-btn {
   background-color: var(--background);
 }
+
+/* ------
+* Text *
+--------*/
+h1,
+li {
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+h2,
+h3,
+h4,
+h5,
+p,
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+h4,
+h5 {
+  margin: 30px 20px;
+}
+/* ------
+* general *
+--------*/
+#body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 /* ------
 * Nav *
 --------*/
@@ -84,41 +123,6 @@ nav {
   width: 50px;
   margin-inline: 10px;
 }
-/* ------
-* Text *
---------*/
-h1,
-li {
-  font-family: "Secular One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-a {
-  text-decoration: none;
-}
-h2,
-p,
-button {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  text-align: center;
-}
-h4,
-h5 {
-  margin: 30px 20px;
-}
-/* ------
-* general *
---------*/
-#body-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
 
 /* ------
 * Main *
@@ -165,4 +169,12 @@ footer {
   align-items: center;
   width: 100%;
   padding: 50px 0px;
+}
+
+/* ------
+* Hover *
+--------*/
+
+.project-btn:hover {
+  background-color: var(--btn-border);
 }

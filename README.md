@@ -28,6 +28,8 @@
 
 - **Main**
 
+- **Quotes**
+
 - **Hover**
 
 - **Screen Sizes**
