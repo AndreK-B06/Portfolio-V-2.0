@@ -81,6 +81,7 @@ h5 {
 * Button and Image *
 -------------------*/
 /* * Image * */
+
 #welcome-img {
   width: auto;
   height: 210px;
@@ -102,6 +103,7 @@ h5 {
   margin-inline: 5px;
 }
 /*  * Button * */
+
 .project-btn {
   margin: 10px 20px;
   padding: 15px 20px;

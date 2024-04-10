@@ -13,6 +13,14 @@ const DiceRollerLive = document.querySelector("#dice-roller-live");
 const karlClickerLive = document.querySelector("#karl-clicker-live");
 const gosipLive = document.querySelector("#gposip-live");
 
+/* ------
+* Icons *
+--------*/
+
+const myGithub = document.querySelector(".github-icon");
+const myLinktin = document.querySelector(".linktin-icon");
+const myMail = document.querySelector(".mail-icon");
+
 /* ------------------
 * Linking to Github *
 --------------------*/
@@ -49,3 +57,17 @@ karlClickerLive.addEventListener("click", function () {
 gosipLive.addEventListener("click", function () {
   window.open("https://inquisitive-kataifi-606b53.netlify.app/", "_blank");
 });
+
+/* -----------------
+* Linking to Icons *
+-------------------*/
+
+myGithub.addEventListener("click", function () {
+  window.open("https://github.com/AndreK-B06", "_blank");
+});
+myLinktin.addEventListener("click", function () {
+  window.open("www.linkedin.com/in/andré-vestrheim-kvist-959510280", "_blank");
+});
+// myMail.addEventListener("click", function () {
+//   window.open("/", "_blank");
+// });
