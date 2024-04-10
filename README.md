@@ -24,6 +24,8 @@
 
 - **General**
 
+- **Button and Image**
+
 - **Nav**
 
 - **Main**

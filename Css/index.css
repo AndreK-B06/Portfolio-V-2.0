@@ -76,6 +76,41 @@ h5 {
   width: 100%;
   height: 100%;
 }
+
+/* -----------------
+* Button and Image *
+-------------------*/
+/* * Image * */
+#welcome-img {
+  width: auto;
+  height: 210px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.icons {
+  width: 50px;
+  margin-inline: 10px;
+}
+
+.project-img {
+  width: 95%;
+  border: var(--btn-border) 20px solid;
+}
+
+.tools-img {
+  margin-inline: 5px;
+}
+/*  * Button * */
+.project-btn {
+  margin: 10px 20px;
+  padding: 15px 20px;
+  border: var(--btn-border) 2px solid;
+  border-radius: 20px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
 /* ------
 * Nav *
 --------*/
@@ -98,12 +133,6 @@ nav {
   width: 100%;
 }
 
-#welcome-img {
-  width: auto;
-  height: 210px;
-  border-radius: 50%;
-  margin-bottom: 30px;
-}
 #about-me {
   display: flex;
   flex-direction: column;
@@ -117,10 +146,6 @@ nav {
   padding: 10px 15px;
   transition: 0.7s;
 }
-.icons {
-  width: 50px;
-  margin-inline: 10px;
-}
 
 /* ------
 * Main *
@@ -131,17 +156,6 @@ nav {
   justify-content: center;
   margin: 20px;
   align-items: center;
-}
-.project-img {
-  width: 95%;
-  border: var(--btn-border) 20px solid;
-}
-.project-btn {
-  margin: 10px 20px;
-  padding: 15px 20px;
-  border: var(--btn-border) 2px solid;
-  border-radius: 20px;
-  transition: 0.7s;
 }
 .my-tools {
   display: flex;
