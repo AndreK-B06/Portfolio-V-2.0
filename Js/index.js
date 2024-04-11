@@ -17,7 +17,7 @@ const gosipLive = document.querySelector("#gposip-live");
 * Icons *
 --------*/
 
-const myGithub = document.querySelectorAll(".githubIcon");
+// const myGithub = document.querySelectorAll(".githubIcon");
 const myLinktin = document.querySelector(".linktin-icon");
 const myMail = document.querySelector(".mail-icon");
 
@@ -61,8 +61,8 @@ gosipLive.addEventListener("click", function () {
 /* -----------------
 * Linking to Icons *
 -------------------*/
-myGithub.forEach((githubIcon) => {
-  githubIcon.addEventListener("click", function () {
+document.querySelectorAll(".githubIcon").forEach((img) => {
+  img.addEventListener("click", function () {
     window.open("https://github.com/AndreK-B06", "_blank");
   });
 });
