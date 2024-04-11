@@ -13,6 +13,10 @@ const DiceRollerLive = document.querySelector("#dice-roller-live");
 const karlClickerLive = document.querySelector("#karl-clicker-live");
 const gosipLive = document.querySelector("#gposip-live");
 
+/* ------------
+* Mail button *
+--------------*/
+const mail = document.querySelector("#contact-me");
 /* ------------------
 * Linking to Github *
 --------------------*/
