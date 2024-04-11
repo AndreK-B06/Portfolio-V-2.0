@@ -17,7 +17,7 @@ const gosipLive = document.querySelector("#gposip-live");
 * Icons *
 --------*/
 
-const myGithub = document.querySelector(".github-icon");
+const myGithub = document.querySelectorAll(".githubIcon");
 const myLinktin = document.querySelector(".linktin-icon");
 const myMail = document.querySelector(".mail-icon");
 
@@ -61,9 +61,10 @@ gosipLive.addEventListener("click", function () {
 /* -----------------
 * Linking to Icons *
 -------------------*/
-
-myGithub.addEventListener("click", function () {
-  window.open("https://github.com/AndreK-B06", "_blank");
+myGithub.forEach((githubIcon) => {
+  githubIcon.addEventListener("click", function () {
+    window.open("https://github.com/AndreK-B06", "_blank");
+  });
 });
 myLinktin.addEventListener("click", function () {
   window.open("www.linkedin.com/in/andré-vestrheim-kvist-959510280", "_blank");
