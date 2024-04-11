@@ -67,7 +67,3 @@ document.querySelectorAll(".linktin-icon").forEach((img) => {
     );
   });
 });
-
-// myMail.addEventListener("click", function () {
-//   window.open("/", "_blank");
-// });
