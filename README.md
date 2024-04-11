@@ -40,4 +40,14 @@
 
 ## Js:
 
-Coming Soon
+- **Github button**
+
+- **Live page button**
+
+- **mail button**
+
+- **Linking to Github**
+
+- **Linking to live page**
+
+- **Linking to Icons**
