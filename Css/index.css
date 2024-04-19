@@ -90,7 +90,7 @@ h5 {
 }
 .githubIcon,
 .linktin-icon,
-.mail-icon {
+#mail-icon {
   width: 50px;
   margin-inline: 10px;
   cursor: pointer;
