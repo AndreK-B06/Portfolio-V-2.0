@@ -44,8 +44,6 @@
 
 - **Live page button**
 
-- **mail button**
-
 - **Linking to Github**
 
 - **Linking to live page**
