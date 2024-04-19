@@ -51,3 +51,13 @@
 - **Linking to live page**
 
 - **Linking to Icons**
+
+<hr>
+
+## Known issues
+
+- **screen sizes for now it is mobile only**
+
+- **Shadow on icons**
+
+- **Not correct font**
