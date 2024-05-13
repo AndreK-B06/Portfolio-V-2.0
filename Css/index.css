@@ -92,7 +92,7 @@ h5 {
 .githubIcon,
 .linktin-icon,
 #mail-icon {
-  width: 50px;
+  width: 30px;
   margin-inline: 10px;
   cursor: pointer;
 }
@@ -110,6 +110,7 @@ h5 {
 .project-btn {
   margin: 10px 20px;
   padding: 15px 20px;
+  width: 10rem;
   border: var(--btn-border) 2px solid;
   border-radius: 20px;
   transition: 0.7s;
@@ -204,3 +205,36 @@ footer {
 /* -----------
 * mediaquery *
 -------------*/
+@media screen and (min-width: 1024px) {
+  /* *Test* */
+  h2,
+  p {
+    margin: auto 20px;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  #hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /* *IMG* */
+  #welcome-img {
+    width: 400px;
+    height: 390px;
+  }
+  .project-img {
+    width: 50%;
+  }
+  /* *Project */
+  .project-alignment {
+    flex-direction: row;
+  }
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
