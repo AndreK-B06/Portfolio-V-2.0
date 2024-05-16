@@ -76,6 +76,9 @@ h5 {
   width: 100%;
   height: 100%;
 }
+.project-btn-container {
+  display: flex;
+}
 
 /* -----------------
 * Button and Image *
@@ -235,6 +238,13 @@ footer {
   .project-details {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+  .my-tools,
+  .project-btn-container {
+    justify-content: center;
+  }
+  .project-btn-container {
     justify-content: center;
   }
 }
