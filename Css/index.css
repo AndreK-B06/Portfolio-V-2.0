@@ -139,7 +139,7 @@ nav {
 #hero {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 50px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -212,7 +212,6 @@ footer {
 * mediaquery *
 -------------*/
 @media screen and (min-width: 1024px) {
-  /* *Test* */
   h2,
   p {
     margin: auto 20px;
@@ -228,8 +227,8 @@ footer {
   }
   /* *IMG* */
   #welcome-img {
-    width: 400px;
-    height: 390px;
+    width: 30%;
+    height: 50%;
   }
   .project-img {
     width: 80%;
@@ -246,12 +245,12 @@ footer {
   #project-1-img,
   #project-2-description,
   #project-3-img {
-    order: 1;
+    order: 2;
   }
   #project-1-description,
   #project-2-img,
-  #project-1-description {
-    order: 2;
+  #project-3-description {
+    order: 1;
   }
   .my-tools,
   .project-btn-container {
