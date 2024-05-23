@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* -------
+* Colors *
+----------*/
+:root {
+  --background: #f5fefd;
+  --text: #16161d;
+  --Hero-section: #0a66c2;
+  --nav-section: #78b9d8;
+  --btn-border: #78b9d8;
+}
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+nav,
+#contact-me,
+footer {
+  background-color: var(--nav-section);
+}
+nav,
+#hero {
+  color: var(--background);
+}
+#hero {
+  background-color: var(--Hero-section);
+}
+#contact-me,
+a {
+  color: var(--text);
+}
+.project-btn {
+  background-color: var(--background);
+}
+
+/* ------
+* Text *
+--------*/
+h1,
+li {
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+h2,
+h3,
+h4,
+h5,
+p,
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+h4,
+h5 {
+  margin: 30px 20px;
+}
+.quote-text {
+  position: relative;
+  z-index: 2;
+}
+/* ------
+* general *
+--------*/
+#body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.project-btn-container {
+  display: flex;
+}
+#project-comtainer {
+  padding-inline: 80px;
+}
+
+/* -----------------
+* Button and Image *
+-------------------*/
+/* * Image * */
+
+#welcome-img {
+  width: 35%;
+  height: 230px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  border: var(--background) 5px solid;
+}
+.githubIcon,
+.linktin-icon,
+#mail-icon {
+  width: 30px;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+
+.project-img {
+  width: 95%;
+  border: var(--btn-border) 20px solid;
+}
+
+.tools-img {
+  margin-inline: 5px;
+}
+/*  * Button * */
+
+.project-btn {
+  margin: 10px 20px;
+  padding: 15px 20px;
+  width: 10rem;
+  border: var(--btn-border) 2px solid;
+  border-radius: 20px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+/* ------
+* Nav *
+--------*/
+nav {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  padding: 2rem;
+}
+
+/* ------
+* Hero *
+--------*/
+#hero {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact-me {
+  margin: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: 0.7s;
+}
+
+/* ------
+* Main *
+--------*/
+.project-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+}
+.my-tools {
+  display: flex;
+  margin: 20px 0px;
+  align-items: center;
+}
+/* ------
+* Quote *
+--------*/
+#quote {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+#quote::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/image/pictures/Water.png);
+  background-position: center;
+  opacity: 0.2;
+  z-index: 1;
+}
+#quote #quote-box {
+  position: relative;
+  z-index: 2;
+}
+/* ------
+* Footer *
+--------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+/* ------
+* Hover *
+--------*/
+
+.project-btn:hover {
+  background-color: var(--btn-border);
+  transition: 0.7s;
+}
+#contact-me:hover {
+  background-color: var(--background);
+  transition: 0.7s;
+}
+/* -----------
+* mediaquery *
+-------------*/
+@media screen and (min-width: 1024px) {
+  h2,
+  p {
+    margin: auto 20px;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  #hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /* *IMG* */
+  #welcome-img {
+    width: 30%;
+    height: 50%;
+  }
+  .project-img {
+    width: 80%;
+  }
+  /* *Project pc */
+  .project-alignment {
+    flex-direction: row;
+  }
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #project-1-img,
+  #project-2-description,
+  #project-3-img {
+    order: 2;
+  }
+  #project-1-description,
+  #project-2-img,
+  #project-3-description {
+    order: 1;
+  }
+  .my-tools,
+  .project-btn-container {
+    justify-content: center;
+  }
+  .project-btn-container {
+    justify-content: center;
+  }
+}
