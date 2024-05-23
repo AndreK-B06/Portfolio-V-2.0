@@ -79,6 +79,9 @@ h5 {
 .project-btn-container {
   display: flex;
 }
+#project-comtainer {
+  padding-inline: 80px;
+}
 
 /* -----------------
 * Button and Image *
