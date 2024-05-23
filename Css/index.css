@@ -229,7 +229,7 @@ footer {
     height: 390px;
   }
   .project-img {
-    width: 50%;
+    width: 80%;
   }
   /* *Project pc */
   .project-alignment {
@@ -240,10 +240,14 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
-  #dice-roller-description {
+  #project-1-img,
+  #project-2-description,
+  #project-3-img {
     order: 1;
   }
-  #dice-roller-img {
+  #project-1-description,
+  #project-2-img,
+  #project-1-description {
     order: 2;
   }
   .my-tools,
