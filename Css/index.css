@@ -231,7 +231,7 @@ footer {
   .project-img {
     width: 50%;
   }
-  /* *Project */
+  /* *Project pc */
   .project-alignment {
     flex-direction: row;
   }
@@ -239,6 +239,12 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  #dice-roller-description {
+    order: 1;
+  }
+  #dice-roller-img {
+    order: 2;
   }
   .my-tools,
   .project-btn-container {

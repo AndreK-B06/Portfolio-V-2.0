@@ -67,3 +67,7 @@ document.querySelectorAll(".linktin-icon").forEach((img) => {
     );
   });
 });
+
+/* -----------
+* Screan size *
+--------------*/
