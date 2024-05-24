@@ -65,6 +65,12 @@ button {
 .font-poppie {
   font-style: italic;
 }
+#project-1-description,
+#project-3-description,
+#project-2-description {
+  align-items: start;
+}
+
 /* *Project Name * */
 
 .font-Oxygen {
@@ -103,9 +109,6 @@ h5 {
 }
 .project-btn-container {
   display: flex;
-}
-#project-comtainer {
-  padding-inline: 80px;
 }
 
 /* -----------------
@@ -195,7 +198,7 @@ nav {
 .project-alignment {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   margin: 20px;
   align-items: center;
 }
@@ -268,13 +271,6 @@ footer {
 * mediaquery *
 -------------*/
 @media screen and (min-width: 1024px) {
-  h2,
-  p {
-    margin: auto 20px;
-  }
-  h2 {
-    margin-bottom: 20px;
-  }
   .tools-icons {
     position: relative;
     opacity: 1;
@@ -301,6 +297,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   #project-1-img,
   #project-2-description,
