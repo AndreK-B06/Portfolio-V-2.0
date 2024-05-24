@@ -50,12 +50,15 @@ li {
 a {
   text-decoration: none;
 }
-.font,
+.font-poppie,
 button {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: italic;
   text-align: center;
+}
+.font-Oxygen {
+  font-family: "Oxygen", sans-serif;
 }
 h3 {
   margin-bottom: 5rem;
