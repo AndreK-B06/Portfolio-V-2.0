@@ -41,11 +41,14 @@ a {
 /* ------
 * Text *
 --------*/
-h1,
-li {
+h1 {
   font-family: "Secular One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 2rem;
+}
+h2 {
+  margin-bottom: 1rem;
 }
 a {
   text-decoration: none;
