@@ -61,7 +61,7 @@ button {
   font-style: italic;
   text-align: center;
 }
-h4 {
+.tools-icons {
   position: absolute;
   opacity: 0;
 }
@@ -97,8 +97,8 @@ h5 {
 /* * Image * */
 
 #welcome-img {
-  width: 35%;
-  height: 230px;
+  width: 20rem;
+  height: 18rem;
   border-radius: 50%;
   margin-bottom: 30px;
   border: var(--background) 5px solid;
@@ -248,7 +248,7 @@ footer {
   h2 {
     margin-bottom: 20px;
   }
-  h4 {
+  .tools-icons {
     position: relative;
     opacity: 1;
   }
