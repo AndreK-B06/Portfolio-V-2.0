@@ -50,6 +50,9 @@ h1 {
 h2 {
   margin-bottom: 1rem;
 }
+#about-me-text {
+  text-align: start;
+}
 a {
   text-decoration: none;
 }
@@ -173,6 +176,10 @@ nav {
   justify-content: center;
   align-items: center;
 }
+#about-me-text {
+  max-width: 600px;
+}
+
 #contact-me {
   margin: 30px;
   border: none;
@@ -183,6 +190,7 @@ nav {
 
 /* ------
 * Main *
+? Change to Project in code and read me ?
 --------*/
 .project-alignment {
   display: flex;
@@ -190,6 +198,11 @@ nav {
   justify-content: center;
   margin: 20px;
   align-items: center;
+}
+#project-1-description,
+#project-2-description,
+#project-3-description {
+  max-width: 400px;
 }
 .my-tools {
   display: flex;
@@ -293,6 +306,7 @@ footer {
   #project-2-description,
   #project-3-img {
     order: 2;
+    text-align: end;
   }
   #project-1-description,
   #project-2-img,
