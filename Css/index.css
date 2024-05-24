@@ -178,9 +178,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-#about-me-text {
-  max-width: 600px;
+  max-width: 500px;
 }
 
 #contact-me {
@@ -279,12 +277,12 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   /* *IMG* */
   #welcome-img {
-    width: 30%;
-    height: 50%;
+    width: 25rem;
+    height: 20rem;
   }
   .project-img {
     width: 80%;
