@@ -100,14 +100,14 @@ h5 {
 * general *
 --------*/
 #body-container {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
 }
-.project-btn-container {
+.project-btn-container,
+.flex {
   display: flex;
 }
 
@@ -190,11 +190,10 @@ nav {
 }
 
 /* ------
-* Main *
+* Project *
 ? Change to Project in code and read me ?
 --------*/
 .project-alignment {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 20px;
@@ -204,9 +203,9 @@ nav {
 #project-2-description,
 #project-3-description {
   max-width: 400px;
+  flex-direction: column;
 }
 .my-tools {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0px;
@@ -216,7 +215,6 @@ nav {
 --------*/
 #quote {
   position: relative;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -245,7 +243,6 @@ nav {
 * Footer *
 --------*/
 footer {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -274,7 +271,6 @@ footer {
     opacity: 1;
   }
   #hero {
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -292,7 +288,6 @@ footer {
     flex-direction: row;
   }
   .project-details {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -309,9 +304,6 @@ footer {
     order: 1;
   }
   .my-tools,
-  .project-btn-container {
-    justify-content: center;
-  }
   .project-btn-container {
     justify-content: center;
   }
