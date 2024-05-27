@@ -110,7 +110,9 @@ h5 {
 .flex {
   display: flex;
 }
-
+.flex-column {
+  flex-direction: column;
+}
 /* -----------------
 * Button and Image *
 -------------------*/
@@ -165,8 +167,6 @@ nav {
 * Hero *
 --------*/
 #hero {
-  display: flex;
-  flex-direction: column;
   padding: 50px;
   justify-content: center;
   align-items: center;
@@ -174,8 +174,6 @@ nav {
 }
 
 #about-me {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 500px;
@@ -194,7 +192,6 @@ nav {
 ? Change to Project in code and read me ?
 --------*/
 .project-alignment {
-  flex-direction: column;
   justify-content: space-between;
   margin: 20px;
   align-items: center;
@@ -307,4 +304,7 @@ footer {
   .project-btn-container {
     justify-content: center;
   }
+}
+#project-1 {
+  flex-direction: row;
 }

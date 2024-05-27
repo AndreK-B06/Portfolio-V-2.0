@@ -20,7 +20,7 @@
     <script src="./Js/index.js" defer></script>
   </head>
   <body>
-    <section class="flex" id="body-container">
+    <section class="flex flex-column" id="body-container">
       <!-- -----------------
         * Navigation section * 
       -------------------- -->
@@ -30,7 +30,7 @@
       <!-- ---------------
        * welcome section *
       ----------------- -->
-      <section class="flex" id="hero">
+      <section class="flex flex-column" id="hero">
         <img
           src="./image/pictures/img-meg.JPG"
           alt="Bilde av meg som smiler"
@@ -39,7 +39,7 @@
         <!-- -------
         * About me * 
         --------- -->
-        <section class="flex" id="about-me">
+        <section class="flex flex-column" id="about-me">
           <h2 class="font-poppie">Hei! André Kvist her</h2>
           <p class="font-poppie" id="about-me-text">
             En kommende Frontend-utvikler med lidenskap for og skape gode
@@ -78,7 +78,7 @@
       --------------------------- -->
       <main id="project-comtainer">
         <!-- * Dice Roller * -->
-        <section class="project-alignment" id="project-1">
+        <section class="project-alignment flex flex-column" id="project-1">
           <div id="project-1-img">
             <img
               class="project-img"
@@ -87,7 +87,10 @@
             />
           </div>
 
-          <aside class="project-details flex" id="project-1-description">
+          <aside
+            class="project-details flex flex-column"
+            id="project-1-description"
+          >
             <h3 class="font-Oxygen">Dice roller</h3>
             <p class="font-poppie">
               Dette er en rulle kalkulator for de som vil prøve å komme inn i
@@ -125,7 +128,7 @@
         </section>
 
         <!-- * Karl Clicker * -->
-        <section class="project-alignment" id="project-2">
+        <section class="project-alignment flex" id="project-2">
           <div id="project-2-img">
             <img
               class="project-img"
@@ -134,7 +137,10 @@
             />
           </div>
 
-          <aside class="project-details flex" id="project-2-description">
+          <aside
+            class="project-details flex flex-column"
+            id="project-2-description"
+          >
             <h3 class="font-Oxygen">Karl Clicker</h3>
             <p class="font-poppie">
               Inspirert av tv shovet "Karl & coo" er begynelsen på en cooci
@@ -171,9 +177,9 @@
         </section>
 
         <!-- ------
-    * Gosip *
-  -------- -->
-        <section class="project-alignment" id="project-3">
+         * Gosip *
+       -------- -->
+        <section class="project-alignment flex" id="project-3">
           <div id="project-3-img">
             <img
               class="project-img"
@@ -182,7 +188,10 @@
             />
           </div>
 
-          <aside class="project-details flex" id="project-3-description">
+          <aside
+            class="project-details flex flex-column"
+            id="project-3-description"
+          >
             <h3 class="font-Oxygen">Gosip</h3>
             <p class="font-poppie">
               Gosip er en app i begynelsefasen hvor man kan lege ut hva man har
@@ -222,7 +231,7 @@
         * My project section end *
         *Section whit a quote * 
       --------------------------- -->
-      <section class="flex" id="quote">
+      <section class="flex flex-column" id="quote">
         <aside id="overley"></aside>
         <main id="quote-box">
           <p class="font-poppie" class="quote-text">
@@ -234,7 +243,7 @@
       <!-- --------
         * Footer * 
       --------- -->
-      <footer class="flex">
+      <footer class="flex flex-column">
         <p class="font-poppie">Ta kontakt!</p>
         <h5 class="font-poppie">andrekb06.kodehode@gmail.com</h5>
         <ul class="linke-icons">
