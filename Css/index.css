@@ -104,10 +104,7 @@ h5 {
   width: 100%;
   height: 100%;
 }
-.project-btn-container,
-.flex {
-  display: flex;
-}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -116,7 +113,7 @@ h5 {
   display: flex;
   flex-direction: row;
 }
-.align-center {
+.justify-center {
   justify-content: center;
 }
 /* -----------------
@@ -193,7 +190,6 @@ nav {
 
 /* ------
 * Project *
-? Change to Project in code and read me ?
 --------*/
 .project-alignment {
   justify-content: space-between;
@@ -267,7 +263,8 @@ footer {
     align-items: center;
     justify-content: space-evenly;
   }
-  .flex-row {
+  .flex-row,
+  .flex-row-pc {
     flex-direction: row;
   }
   .align-center {
