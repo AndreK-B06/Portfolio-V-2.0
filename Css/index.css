@@ -65,9 +65,7 @@ button {
 .font-poppie {
   font-style: italic;
 }
-#project-1-description,
-#project-3-description,
-#project-2-description {
+.project-details {
   align-items: start;
 }
 
@@ -96,12 +94,12 @@ h5 {
   position: relative;
   z-index: 2;
 }
+
 /* ------
 * general *
 --------*/
+
 #body-container {
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -111,7 +109,15 @@ h5 {
   display: flex;
 }
 .flex-column {
+  display: flex;
   flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.align-center {
+  justify-content: center;
 }
 /* -----------------
 * Button and Image *
@@ -168,13 +174,11 @@ nav {
 --------*/
 #hero {
   padding: 50px;
-  justify-content: center;
   align-items: center;
   width: 100%;
 }
 
 #about-me {
-  justify-content: center;
   align-items: center;
   max-width: 500px;
 }
@@ -200,10 +204,8 @@ nav {
 #project-2-description,
 #project-3-description {
   max-width: 400px;
-  flex-direction: column;
 }
 .my-tools {
-  justify-content: center;
   align-items: center;
   margin: 20px 0px;
 }
@@ -212,8 +214,6 @@ nav {
 --------*/
 #quote {
   position: relative;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
   height: 300px;
@@ -240,8 +240,6 @@ nav {
 * Footer *
 --------*/
 footer {
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
   padding: 50px 0px;
@@ -268,9 +266,14 @@ footer {
     opacity: 1;
   }
   #hero {
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  .align-center {
+    justify-content: center;
   }
   /* *IMG* */
   #welcome-img {
@@ -281,12 +284,7 @@ footer {
     width: 80%;
   }
   /* *Project pc */
-  .project-alignment {
-    flex-direction: row;
-  }
   .project-details {
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
   #project-1-img,
@@ -300,11 +298,4 @@ footer {
   #project-3-description {
     order: 1;
   }
-  .my-tools,
-  .project-btn-container {
-    justify-content: center;
-  }
-}
-#project-1 {
-  flex-direction: row;
 }
