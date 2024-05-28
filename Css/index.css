@@ -50,9 +50,6 @@ h1 {
 h2 {
   margin-bottom: 1rem;
 }
-#about-me-text {
-  text-align: start;
-}
 a {
   text-decoration: none;
 }
@@ -66,7 +63,7 @@ button {
   font-style: italic;
 }
 .project-details {
-  align-items: start;
+  align-items: center;
 }
 
 /* *Project Name * */
@@ -192,7 +189,7 @@ nav {
 * Project *
 --------*/
 .project-alignment {
-  justify-content: space-between;
+  justify-content: center;
   margin: 20px;
 }
 .project-details {
@@ -283,6 +280,5 @@ footer {
   }
   .order-start {
     order: 1;
-    margin: 20px;
   }
 }
