@@ -100,7 +100,6 @@ h5 {
 --------*/
 
 #body-container {
-  align-items: center;
   width: 100%;
   height: 100%;
 }
@@ -115,6 +114,9 @@ h5 {
 }
 .justify-center {
   justify-content: center;
+}
+.align-center {
+  align-items: center;
 }
 /* -----------------
 * Button and Image *
@@ -171,12 +173,10 @@ nav {
 --------*/
 #hero {
   padding: 50px;
-  align-items: center;
   width: 100%;
 }
 
 #about-me {
-  align-items: center;
   max-width: 500px;
 }
 
@@ -194,13 +194,11 @@ nav {
 .project-alignment {
   justify-content: space-between;
   margin: 20px;
-  align-items: center;
 }
 .project-details {
   max-width: 400px;
 }
 .my-tools {
-  align-items: center;
   margin: 20px 0px;
 }
 /* ------
@@ -208,7 +206,6 @@ nav {
 --------*/
 #quote {
   position: relative;
-  align-items: center;
   width: 100%;
   height: 300px;
   overflow: hidden;
@@ -226,7 +223,8 @@ nav {
   opacity: 0.2;
   z-index: 1;
 }
-#quote #quote-box {
+#quote,
+#quote-box {
   position: relative;
   z-index: 2;
 }
@@ -234,7 +232,6 @@ nav {
 * Footer *
 --------*/
 footer {
-  align-items: center;
   width: 100%;
   padding: 50px 0px;
 }
@@ -262,7 +259,6 @@ footer {
   #hero {
     justify-content: space-evenly;
   }
-  .flex-row,
   .flex-row-pc {
     flex-direction: row;
   }
@@ -287,6 +283,6 @@ footer {
   }
   .order-start {
     order: 1;
-    text-align: end;
+    margin: 20px;
   }
 }
