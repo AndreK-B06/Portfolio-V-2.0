@@ -222,8 +222,7 @@ nav {
   opacity: 0.2;
   z-index: 1;
 }
-#quote,
-#quote-box {
+.quote-section {
   position: relative;
   z-index: 2;
 }
