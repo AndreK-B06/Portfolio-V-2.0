@@ -200,9 +200,7 @@ nav {
   margin: 20px;
   align-items: center;
 }
-#project-1-description,
-#project-2-description,
-#project-3-description {
+.project-details {
   max-width: 400px;
 }
 .my-tools {
