@@ -12,7 +12,6 @@
   --text: #16161d;
   --Hero-section: #0a66c2;
   --nav-section: #78b9d8;
-  --btn-border: #78b9d8;
 }
 body {
   background-color: var(--background);
@@ -137,7 +136,7 @@ h5 {
 
 .project-img {
   width: 95%;
-  border: var(--btn-border) 20px solid;
+  border: var(--nav-section) 20px solid;
   margin: 1rem 0rem;
 }
 
@@ -149,7 +148,7 @@ h5 {
 .project-btn {
   margin: 10px 20px;
   padding: 5px 10px;
-  border: var(--btn-border) 2px solid;
+  border: var(--nav-section) 2px solid;
   border-radius: 20px;
   transition: 0.7s;
   cursor: pointer;
@@ -188,9 +187,12 @@ nav {
 /* ------
 * Project *
 --------*/
+#project-container {
+  padding-inline: 80px;
+}
+
 .project-alignment {
-  justify-content: center;
-  margin: 20px;
+  margin: 20px 0px;
 }
 .project-details {
   max-width: 400px;
@@ -238,7 +240,7 @@ footer {
 --------*/
 
 .project-btn:hover {
-  background-color: var(--btn-border);
+  background-color: var(--nav-section);
   transition: 0.7s;
 }
 #contact-me:hover {
@@ -258,9 +260,6 @@ footer {
   }
   .flex-row-pc {
     flex-direction: row;
-  }
-  .justify-center {
-    justify-content: center;
   }
   /* *IMG* */
   #welcome-img {
