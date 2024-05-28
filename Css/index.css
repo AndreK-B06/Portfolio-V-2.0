@@ -260,14 +260,13 @@ footer {
     opacity: 1;
   }
   #hero {
-    align-items: center;
     justify-content: space-evenly;
   }
   .flex-row,
   .flex-row-pc {
     flex-direction: row;
   }
-  .align-center {
+  .justify-center {
     justify-content: center;
   }
   /* *IMG* */
@@ -288,5 +287,6 @@ footer {
   }
   .order-start {
     order: 1;
+    text-align: end;
   }
 }
