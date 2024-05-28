@@ -285,15 +285,11 @@ footer {
   .project-details {
     align-items: center;
   }
-  #project-1-img,
-  #project-2-description,
-  #project-3-img {
+  .order-end {
     order: 2;
     text-align: end;
   }
-  #project-1-description,
-  #project-2-img,
-  #project-3-description {
+  .order-start {
     order: 1;
   }
 }
