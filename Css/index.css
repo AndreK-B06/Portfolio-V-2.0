@@ -215,9 +215,6 @@ nav {
 .quote-section {
   z-index: 2;
 }
-/* ------
-* Footer *
---------*/
 
 /* ------
 * Hover *
@@ -230,7 +227,7 @@ nav {
   transition: 0.7s;
 }
 /* -----------
-* mediaquery *
+* screen size *
 -------------*/
 @media screen and (min-width: 1024px) {
   .tools-icons {

@@ -36,8 +36,6 @@
 
 - **Screen Sizes**
 
--**mediaquery**
-
 <hr>
 
 ## Js:
