@@ -32,8 +32,6 @@
 
 - **Quotes**
 
-- **Hover**
-
 - **Screen Sizes**
 
 <hr>
