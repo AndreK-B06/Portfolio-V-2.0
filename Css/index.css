@@ -115,6 +115,10 @@ button {
 .pos-rel {
   position: relative;
 }
+.trans-07,
+.trans-07:hover {
+  transition: 0.7s;
+}
 /* -----------------
 * Button and Image *
 -------------------*/
@@ -151,7 +155,6 @@ button {
   padding: 5px 10px;
   border: var(--nav-section) 2px solid;
   border-radius: 20px;
-  transition: 0.7s;
   cursor: pointer;
 }
 
@@ -176,7 +179,6 @@ nav {
   border: none;
   border-radius: 5px;
   padding: 10px 15px;
-  transition: 0.7s;
 }
 
 /* ------
@@ -216,16 +218,6 @@ nav {
   z-index: 2;
 }
 
-/* ------
-* Hover *
---------*/
-
-.project-btn:hover {
-  transition: 0.7s;
-}
-#contact-me:hover {
-  transition: 0.7s;
-}
 /* -----------
 * screen size *
 -------------*/
