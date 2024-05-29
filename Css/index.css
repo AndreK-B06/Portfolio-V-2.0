@@ -60,8 +60,6 @@ button {
   align-items: center;
 }
 
-/* *Project Name * */
-
 .font-Oxygen {
   font-family: "Oxygen", sans-serif;
   font-size: 2rem;
@@ -77,10 +75,7 @@ h3 {
 button {
   letter-spacing: 1px;
 }
-h4,
-h5 {
-  margin: 30px 20px;
-}
+
 .quote-text {
   position: relative;
   z-index: 2;
@@ -108,6 +103,13 @@ h5 {
 }
 .align-center {
   align-items: center;
+}
+.m-30-20 {
+  margin: 30px 20px;
+}
+.p-50-w-100 {
+  padding: 50px 0px;
+  width: 100%;
 }
 /* -----------------
 * Button and Image *
@@ -162,17 +164,12 @@ nav {
 /* ------
 * Hero *
 --------*/
-#hero {
-  padding: 50px;
-  width: 100%;
-}
 
 #about-me {
   max-width: 500px;
 }
 
 #contact-me {
-  margin: 30px;
   border: none;
   border-radius: 5px;
   padding: 10px 15px;
@@ -186,14 +183,12 @@ nav {
   padding-inline: 80px;
 }
 
-.project-alignment {
+.project-alignment,
+.my-tools {
   margin: 20px 0px;
 }
 .project-details {
   max-width: 400px;
-}
-.my-tools {
-  margin: 20px 0px;
 }
 /* ------
 * Quote *
@@ -224,10 +219,6 @@ nav {
 /* ------
 * Footer *
 --------*/
-footer {
-  width: 100%;
-  padding: 50px 0px;
-}
 
 /* ------
 * Hover *
