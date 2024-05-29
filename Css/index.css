@@ -43,14 +43,20 @@ h1 {
 }
 h2 {
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 a {
   text-decoration: none;
 }
+.weight-bold {
+  font-weight: bold;
+}
+.weight-300 {
+  font-weight: 300;
+}
 .font-poppie,
 button {
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
   text-align: center;
 }
 .font-poppie {
@@ -184,6 +190,7 @@ nav {
 /* ------
 * Project *
 --------*/
+
 #project-container {
   padding-inline: 80px;
 }
@@ -192,6 +199,7 @@ nav {
 .my-tools {
   margin: 20px 0px;
 }
+
 .project-details {
   max-width: 400px;
 }
